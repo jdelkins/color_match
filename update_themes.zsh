@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-for cs in ~/.zsh/themes/*; do
+for cs in ~/.config/zsh/themes/*; do
 	sed -i -e '/_mycolor_ansi/d' $cs
 	# loadcolorstyle is defined in my ~/.zshenv
 	loadcolorstyle $(basename $cs)
