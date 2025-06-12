@@ -1,0 +1,9 @@
+schema = 3
+
+[mod]
+  [mod."github.com/lucasb-eyer/go-colorful"]
+    version = "v1.2.0"
+    hash = "sha256-Gg9dDJFCTaHrKHRR1SrJgZ8fWieJkybljybkI9x0gyE="
+  [mod."github.com/pborman/getopt/v2"]
+    version = "v2.1.0"
+    hash = "sha256-7e/gEc8E68jXBxD3Znp4gNph8SkLti8mv1lmMJsubA0="
